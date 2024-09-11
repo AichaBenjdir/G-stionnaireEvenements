@@ -16,6 +16,23 @@
     position: relative;
 }
 
+
+/* Styles responsives */
+@media (max-width: 768px) {
+    .rectangle {
+        font-size: 3vw; 
+        padding: 15px; 
+        width: 85%;
+    }
+}
+
+@media (max-width: 480px) {
+    .rectangle {
+        font-size: 4vw; 
+        padding: 10px; 
+        width: 90%; 
+    }
+}
 /* Style pour le bouton */
 /* #fetchAdviceButton {
     margin-top: 20px;
